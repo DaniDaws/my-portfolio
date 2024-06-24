@@ -1,0 +1,26 @@
+.projects {
+    margin: 2rem;
+  }
+  
+  .projects h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin: 0.5rem 0;
+  }
+  
+  .projects a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .projects a:hover {
+    text-decoration: underline;
+  }
+  

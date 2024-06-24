@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../styles/Projects.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -10,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section className="projects">
       <h2>My GitHub Projects</h2>
       <ul>
         {projects.map((project) => (
