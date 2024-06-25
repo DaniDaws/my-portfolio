@@ -1,8 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
+html, body, #root {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
     background-color: #f0f0f0;
     color: #333;
   }
@@ -31,10 +35,17 @@ body {
   }
   
   main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
   }
   
   section {
+    width: 100%;
+    max-width: 800px;
     margin: 2rem 0;
     padding: 1rem;
     background: #fff;
@@ -47,9 +58,6 @@ body {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
   }
   
   ul {

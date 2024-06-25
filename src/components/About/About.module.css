@@ -1,0 +1,14 @@
+.about {
+  margin: 2rem;
+  line-height: 1.6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}

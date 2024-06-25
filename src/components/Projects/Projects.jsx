@@ -1,17 +1,25 @@
 import React, { useEffect, useState } from "react";
-import "../styles/Projects.css";
+import { fetchRepos } from "../../services/api";
+import styles from "./Projects.module.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/DaniDaws/repos")
-      .then((response) => response.json())
-      .then((data) => setProjects(data));
+    const getProjects = async () => {
+      const repos = await fetchRepos("DaniDaws");
+      setProjects(repos);
+    };
+    getProjects().catch(setError);
   }, []);
 
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
   return (
-    <section className="projects">
+    <section className={styles.projects}>
       <h2>My GitHub Projects</h2>
       <ul>
         {projects.map((project) => (

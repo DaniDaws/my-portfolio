@@ -1,0 +1,31 @@
+.projects {
+  margin: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h2 {
+  margin-bottom: 1rem;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+}
+
+.projects a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
