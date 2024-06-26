@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
 }
 
 .contact h2 {
