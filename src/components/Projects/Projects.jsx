@@ -22,6 +22,9 @@ const Projects = () => {
     <section className={styles.projects}>
       <h2>My GitHub Projects</h2>
       <ul>
+        <li>
+          <a href="https://github.com/house-of-the-badger/ekanS">ekanS</a>
+        </li>
         {projects.map((project) => (
           <li key={project.id}>
             <a
@@ -33,9 +36,6 @@ const Projects = () => {
             </a>
           </li>
         ))}
-        <li>
-          <a href="https://github.com/house-of-the-badger/ekanS">ekanS</a>
-        </li>
       </ul>
     </section>
   );
