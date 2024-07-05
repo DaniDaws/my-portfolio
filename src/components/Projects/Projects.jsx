@@ -23,7 +23,13 @@ const Projects = () => {
       <h2>My GitHub Projects</h2>
       <ul>
         <li>
-          <a href="https://github.com/house-of-the-badger/ekanS">ekanS</a>
+          <a
+            href="https://github.com/house-of-the-badger/ekanS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ekanS
+          </a>
         </li>
         {projects.map((project) => (
           <li key={project.id}>
