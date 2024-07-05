@@ -33,6 +33,9 @@ const Projects = () => {
             </a>
           </li>
         ))}
+        <li>
+          <a href="https://github.com/house-of-the-badger/ekanS">ekanS</a>
+        </li>
       </ul>
     </section>
   );

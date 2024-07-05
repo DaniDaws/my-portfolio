@@ -9,8 +9,8 @@ const Contact = () => {
         Why not check out my{" "}
         <a href="https://www.linkedin.com/in/danielle-d-7936232a2/">
           LinkedIn account
-        </a>
-        ?
+        </a>{" "}
+        or my <a href="https://github.com/DaniDaws">GitHub profile</a>?
       </p>
     </section>
   );
