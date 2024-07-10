@@ -24,11 +24,11 @@ const Projects = () => {
       <ul>
         <li>
           <a
-            href="https://github.com/house-of-the-badger/ekanS"
+            href="https://github.com/house-of-the-badger/ekansREBORN"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ekanS
+            ekansREBORN
           </a>
         </li>
         {projects.map((project) => (
